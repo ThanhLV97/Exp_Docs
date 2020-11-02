@@ -1,9 +1,9 @@
-###Install zsh using script
+### Install zsh using script
 ```
 bash zsh_install.sh
 ```
-###Custom zsh
-####Themes
+### Custom zsh
+#### Themes
 
 Once you find a theme that you'd like to use, you will need to edit the ~/.zshrc file. You'll see an environment variable (all caps) in there that looks like:
 
