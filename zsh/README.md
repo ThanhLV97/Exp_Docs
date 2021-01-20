@@ -26,5 +26,6 @@ ls yourfolder/themes/*agnoster*
 Open file and edit follow 
 ```
 prompt_segment blue $CURRENT_FG '%Z~'
+```
 Apply changes to the theme file, save, and source ~/.zshrc
 
