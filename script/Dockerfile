@@ -30,6 +30,6 @@ RUN mkdir -p build && \
     cmake ../opencv && \
     make && \
     make install
-RUN echo 'Installed successful'
+RUN echo 'successfully built'
 
 CMD  tail -f /dev/null
