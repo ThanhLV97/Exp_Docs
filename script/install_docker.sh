@@ -12,6 +12,7 @@ sudo apt-get install -y docker-ce
 
 echo 'Adding group...'
 sudo usermod -aG docker ${USER}
-
+sudo chmod 666 /var/run/docker.sock
+sudo systemctl restart docker
 echo 'Installed successfully'
 
